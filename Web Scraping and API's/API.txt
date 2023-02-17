@@ -1,0 +1,51 @@
+API (Application programming interface)
+---------------------------------------
+
+API gives access to data an dabstraction to the implementation.
+
+Web based API 
+
+We can't have all the data on a device. We use API's to gain access to lot of data using remote API's.
+
+Representational state transfer (REST):
+GraphQL ->look at this later. 
+
+Client --------------> SERVER
+Client sends request. Server receives the requests and it returns the webpage of the address given(URL)
+
+GET Reqeust.
+Response is given. 
+
+API which follows REST are known as RESTFUL.
+
+For RESTFUL,  the conditions are :
+->Client - Server architecture
+-> Statelesness
+-> Layered System
+-> Cacheability
+-> Uniform design
+-> Code on Demand
+
+Program will send a request to the server. HTTP is used to send the request. 
+
+A e book website home page will have different books list. Each book is a resource. Resource is an object. 
+
+CRUD (Creating, Reading, updating ,deleting)
+--------------------------------------------
+We were just readin the data on the website by using get request for the data. Server responds and sends the data. 
+
+JSON - JavaScript object notation.
+
+Notations.
+
+GET - READ 
+POST - CREATE 
+
+PUT - Update 
+PATCH - Update
+DELETE - DELETE
+
+Interact with the application which exposed their Remote API. 
+
+RESTful API uses
+------------------
